@@ -1,7 +1,3 @@
-![PBI](https://github.com/tedhwang007/pbi/blob/main/Screenshot.png)
-
-Superstore Sales and Profit Report (Power BI Project)
-
 ## This Power BI project analyzes the sales and profit data of the Superstore dataset. The following insights and visualizations are included in the report:
 
 **Forecasting Line for Sales and Profits**: Visualizing a line chart showing the trend of sales and profits over time. The chart also includes a forecasting line to predict future trends based on historical data.
@@ -19,3 +15,6 @@ The dataset used in this project is the Superstore dataset, which is a publicly 
 
 **How to Use**
 To use this report, simply download and open the Power BI file using Power BI Desktop. The report includes several slicers and filters that allow users to filter and drill down into the data.
+
+![PBI](https://github.com/tedhwang007/pbi/blob/main/Screenshot.png)
+
