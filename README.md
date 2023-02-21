@@ -14,5 +14,7 @@ This Power BI project uses the Superstore dataset to create a comprehensive sale
 
 Overall, this project provides valuable insights into the Superstore's sales and profit performance, and the use of Power BI allows for clear and concise visualizations to aid in decision-making.
 
+Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
+
 ![PBI](https://github.com/tedhwang007/pbi/blob/main/Screenshot.png)
 
