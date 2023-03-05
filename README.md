@@ -21,9 +21,9 @@ The RFM Analysis involves calculating the recency, frequency, and monetary value
 K-means clustering is used to group customers based on their RFM scores. The optimal number of clusters is determined using the elbow method. The customers are then assigned to one of the clusters based on their RFM scores.
 
 ## How to Use
-Download the Superstore sample dataset.
-Run the Python script rfm_analysis.py to perform the RFM Analysis and K-means clustering and save the results as a CSV file.
-Open the Power BI file superstore_sales_report.pbix to view the visualizations.
+- Download the Superstore sample dataset.
+- Run the Python script "Customer-Segmentation.ipynb" to perform the RFM Analysis and K-means clustering and save the results as a CSV file.
+- Open the Power BI file "SPD.pbix" to view the visualizations.
 
 ## Conclusion
 This project provides a comprehensive report on sales and profit for Superstore, along with customer segmentation using RFM Analysis and K-means clustering. The visualizations in the report allow the user to easily identify trends and patterns in the data, while the customer segmentation allows Superstore to target specific customer groups with personalized marketing strategies.
