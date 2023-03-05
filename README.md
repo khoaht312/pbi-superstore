@@ -14,6 +14,18 @@ This project is divided into two main parts: Visualization and Analysis.
 The visualization part of this project is created using Power BI. The visualizations are created to show the sales and profit trend over time, sales and profit by category and sub-category, and sales and profit by region. The visualizations also include interactive filters, such as the ability to filter by year, customer, and region.
 
 ## Analysis
+
+**Insights**:
+- The Central region has the highest total sales and profit, while the South region has the lowest.
+- Furniture has the lowest profit margin of all the product categories, while Technology has the highest.
+- Orders placed via the phone have a higher average order value than those placed online or via mail.
+- Customers in the Home Office segment have the highest average order value, while those in the Consumer segment have the lowest.
+- Sales and profit both tend to be higher in the second half of the year (July to December) than in the first half (January to June).
+- There is a positive correlation between sales and profit, but the strength of the correlation varies by region.
+- The top-performing products by sales and profit are concentrated in the Technology and Office Supplies categories.
+- There are some customers who consistently generate high sales and profit, while others only make occasional purchases with lower values.
+- There are some sub-categories (such as Machines and Tables) with consistently low profit margins, indicating that the company may need to re-evaluate pricing or sourcing strategies for those products.
+
 The analysis part of this project involves customer segmentation using RFM Analysis and K-means clustering. RFM Analysis is a technique used to segment customers based on their recency, frequency, and monetary value. K-means clustering is a machine learning algorithm used to group similar data points together.
 
 The RFM Analysis involves calculating the recency, frequency, and monetary value of each customer. The recency is calculated as the number of days since the customer's last purchase. The frequency is calculated as the number of purchases made by the customer. The monetary value is calculated as the total amount spent by the customer. The customers are then segmented into three groups based on their RFM scores.
