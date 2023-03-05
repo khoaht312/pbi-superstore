@@ -1,28 +1,17 @@
-## Case Study: Business Problem
-A large retailer, Superstore, wants to improve its marketing strategy to boost sales and profits. To achieve this goal, they need to understand their customers better and segment them into different groups based on their buying behavior. The retailer has collected transactional data, which includes the date, product category, customer ID, sales, and profit margin. They want to use this data to segment their customers and identify the most profitable customer groups.
+## Introduction:
+The Superstore dataset is a fictional dataset that contains information about sales, profit, and customer details. In this case study, we will explore how Power BI can be used to visualize and analyze Superstore sales and profit reports, and how customer segmentation can be performed using RFM Analysis and K-means clustering.
 
-## Data Exploration
-We will be using the Superstore dataset, which contains transactional data for a period of 4 years from 2014 to 2017. The dataset contains 51,290 rows and 24 columns, including Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Segment, Country, City, State, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, and Profit.
+## Sales and Profit Reports:
+First, we extracted the Superstore dataset and cleaned the data by removing missing values and duplicates. We then created various charts and visualizations using Power BI, such as a line chart showing monthly sales and profit, a map chart showing sales by region, a stacked bar chart showing sales and profit by category and sub-category, and a matrix chart showing sales and profit by customer segment and region.
 
-## Data Preparation
-First, we will preprocess the data by cleaning the missing and duplicate values. Next, we will perform feature engineering to extract the RFM (Recency, Frequency, and Monetary) values for each customer.
+## Customer Segmentation:
+We then performed RFM Analysis on the Superstore dataset to segment customers based on their purchasing behavior. We calculated the Recency, Frequency, and Monetary values for each customer and then applied K-means clustering to group customers into three segments based on their RFM scores. We named the segments as Loyal, Potential, and Churned.
 
-Recency represents the number of days since the last purchase by a customer, Frequency represents the number of purchases made by a customer, and Monetary represents the total amount of money spent by a customer.
+## Insights:
+Our analysis showed that the Superstore had a high volume of sales and profit in the West and East regions, with Furniture and Technology being the top-performing categories. Additionally, the Loyal customer segment had the highest purchasing frequency and generated the most profit for the Superstore. On the other hand, the Churned customer segment had the lowest RFM scores and generated the least amount of profit. Therefore, the Superstore should focus on retaining its Loyal customers and re-engaging its Churned customers.
 
-We will also normalize the data using the MinMaxScaler to bring all the features to a common scale.
-
-## RFM Analysis
-After preparing the data, we will perform RFM analysis to segment the customers based on their buying behavior. We will use the K-means clustering algorithm to group customers into different segments.
-
-We will determine the optimal number of clusters using the Elbow method and Silhouette analysis.
-
-## Results and Insights
-After performing the clustering, we will analyze the results and draw insights. We will identify the most profitable customer groups and make recommendations to improve the marketing strategy to target these customers.
-
-For example, we may find that customers who purchase office supplies in large quantities are the most profitable group. In this case, we may recommend launching targeted marketing campaigns for this group to increase their loyalty and purchase frequency.
-
-## Conclusion
-Customer segmentation is an important aspect of marketing strategy, and RFM analysis combined with K-means clustering is an effective way to segment customers based on their buying behavior. The Superstore dataset provides a rich source of transactional data that can be used to identify the most profitable customer groups and make data-driven marketing decisions.
+## Conclusion:
+By visualizing Superstore sales and profit reports and performing customer segmentation using RFM Analysis and K-means clustering, we gained valuable insights into customer behavior and purchasing patterns. This information can be used by the Superstore to make informed business decisions, such as improving customer retention and increasing profit margins.
 
 Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
 
