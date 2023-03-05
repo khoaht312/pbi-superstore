@@ -15,5 +15,8 @@ By visualizing Superstore sales and profit reports and performing customer segme
 
 Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
 
-![PBI](https://github.com/tedhwang007/pbi/blob/main/Screenshot.png)
+![PBI-1](https://github.com/tedhwang007/pbi/blob/main/Page-1.png)
+![PBI-2](https://github.com/tedhwang007/pbi/blob/main/Page-2.png)
+![PBI-3](https://github.com/tedhwang007/pbi/blob/main/Page-3.png)
+
 
