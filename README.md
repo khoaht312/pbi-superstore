@@ -1,19 +1,32 @@
-## Introduction
-The Superstore dataset is a fictional dataset that contains information about sales, profit, and customer details. In this case study, we will explore how Power BI can be used to visualize and analyze Superstore sales and profit reports, and how customer segmentation can be performed using RFM Analysis and K-means clustering.
+This project is a report on sales and profit for the fictional company "Superstore" based on their sales and profit data. The report also includes customer segmentation using RFM Analysis and K-means clustering. The data used in this project is a sample dataset provided by Superstore.
 
-## Sales and Profit Reports
-First, we extracted the Superstore dataset and cleaned the data by removing missing values and duplicates. We then created various charts and visualizations using Power BI, such as a line chart showing monthly sales and profit, a map chart showing sales by region, a stacked bar chart showing sales and profit by category and sub-category, and a matrix chart showing sales and profit by customer segment and region.
+## Technologies Used
+Python (Pandas, NumPy, Scikit-learn)
+Power BI
+## Data Source
+The data source used in this project is the Superstore sample dataset provided by Superstore. The dataset contains information on sales and profit, including customer information.
+Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
 
-## Customer Segmentation
-We then performed RFM Analysis on the Superstore dataset to segment customers based on their purchasing behavior. We calculated the Recency, Frequency, and Monetary values for each customer and then applied K-means clustering to group customers into three segments based on their RFM scores. We named the segments as Loyal, Potential, and Churned.
+## Project Description
+This project is divided into two main parts: Visualization and Analysis.
 
-## Insights
-Our analysis showed that the Superstore had a high volume of sales and profit in the West and East regions, with Furniture and Technology being the top-performing categories. Additionally, the Loyal customer segment had the highest purchasing frequency and generated the most profit for the Superstore. On the other hand, the Churned customer segment had the lowest RFM scores and generated the least amount of profit. Therefore, the Superstore should focus on retaining its Loyal customers and re-engaging its Churned customers.
+## Visualization
+The visualization part of this project is created using Power BI. The visualizations are created to show the sales and profit trend over time, sales and profit by category and sub-category, and sales and profit by region. The visualizations also include interactive filters, such as the ability to filter by year, customer, and region.
+
+## Analysis
+The analysis part of this project involves customer segmentation using RFM Analysis and K-means clustering. RFM Analysis is a technique used to segment customers based on their recency, frequency, and monetary value. K-means clustering is a machine learning algorithm used to group similar data points together.
+
+The RFM Analysis involves calculating the recency, frequency, and monetary value of each customer. The recency is calculated as the number of days since the customer's last purchase. The frequency is calculated as the number of purchases made by the customer. The monetary value is calculated as the total amount spent by the customer. The customers are then segmented into three groups based on their RFM scores.
+
+K-means clustering is used to group customers based on their RFM scores. The optimal number of clusters is determined using the elbow method. The customers are then assigned to one of the clusters based on their RFM scores.
+
+## How to Use
+Download the Superstore sample dataset.
+Run the Python script rfm_analysis.py to perform the RFM Analysis and K-means clustering and save the results as a CSV file.
+Open the Power BI file superstore_sales_report.pbix to view the visualizations.
 
 ## Conclusion
-By visualizing Superstore sales and profit reports and performing customer segmentation using RFM Analysis and K-means clustering, we gained valuable insights into customer behavior and purchasing patterns. This information can be used by the Superstore to make informed business decisions, such as improving customer retention and increasing profit margins.
-
-Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
+This project provides a comprehensive report on sales and profit for Superstore, along with customer segmentation using RFM Analysis and K-means clustering. The visualizations in the report allow the user to easily identify trends and patterns in the data, while the customer segmentation allows Superstore to target specific customer groups with personalized marketing strategies.
 
 ![PBI-1](https://github.com/tedhwang007/pbi/blob/main/report.png)
 
