@@ -15,7 +15,7 @@ The visualization part of this project is created using Power BI. The visualizat
 
 ## Analysis
 
-**Insights**:
+**Some insights**:
 - The Central region has the highest total sales and profit, while the South region has the lowest.
 - Furniture has the lowest profit margin of all the product categories, while Technology has the highest.
 - Orders placed via the phone have a higher average order value than those placed online or via mail.
