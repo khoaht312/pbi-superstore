@@ -1,8 +1,8 @@
 This project is a report on sales and profit for the fictional company "Superstore" based on their sales and profit data. The report also includes customer segmentation using RFM Analysis and K-means clustering. The data used in this project is a sample dataset provided by Superstore.
 
 ## Technologies Used
-Python (Pandas, NumPy, Scikit-learn)
-Power BI
+- Python (Pandas, NumPy, Scikit-learn)
+- Power BI
 ## Data Source
 The data source used in this project is the Superstore sample dataset provided by Superstore. The dataset contains information on sales and profit, including customer information.
 Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
