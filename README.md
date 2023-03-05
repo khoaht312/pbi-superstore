@@ -1,18 +1,28 @@
-# Superstore Sales and Profit Report
+## Case Study: Business Problem
+A large retailer, Superstore, wants to improve its marketing strategy to boost sales and profits. To achieve this goal, they need to understand their customers better and segment them into different groups based on their buying behavior. The retailer has collected transactional data, which includes the date, product category, customer ID, sales, and profit margin. They want to use this data to segment their customers and identify the most profitable customer groups.
 
-This Power BI project uses the Superstore dataset to create a comprehensive sales and profit report, including insightful visualizations and analysis. Some of the insights derived from the project include:
+## Data Exploration
+We will be using the Superstore dataset, which contains transactional data for a period of 4 years from 2014 to 2017. The dataset contains 51,290 rows and 24 columns, including Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Segment, Country, City, State, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, and Profit.
 
-**Forecasting Lines**: The report includes forecasting lines for sales and profits, providing a view of future trends and potential growth.
+## Data Preparation
+First, we will preprocess the data by cleaning the missing and duplicate values. Next, we will perform feature engineering to extract the RFM (Recency, Frequency, and Monetary) values for each customer.
 
-**YoY Growth**: Year-over-year growth is calculated and visualized to provide insight into how the business is performing over time.
+Recency represents the number of days since the last purchase by a customer, Frequency represents the number of purchases made by a customer, and Monetary represents the total amount of money spent by a customer.
 
-**Profit Breakdowns by Category and Sub-Category**: The report breaks down profits by category and sub-category, helping to identify which areas of the business are driving the most revenue.
+We will also normalize the data using the MinMaxScaler to bring all the features to a common scale.
 
-**Most Profitable Products**: The report analyzes profitability by product to identify the most profitable items and opportunities for improvement.
+## RFM Analysis
+After preparing the data, we will perform RFM analysis to segment the customers based on their buying behavior. We will use the K-means clustering algorithm to group customers into different segments.
 
-**Profit by Region and State**: The report breaks down profits by region and state, helping to identify which areas of the business are driving the most revenue and where improvements can be made.
+We will determine the optimal number of clusters using the Elbow method and Silhouette analysis.
 
-Overall, this project provides valuable insights into the Superstore's sales and profit performance, and the use of Power BI allows for clear and concise visualizations to aid in decision-making.
+## Results and Insights
+After performing the clustering, we will analyze the results and draw insights. We will identify the most profitable customer groups and make recommendations to improve the marketing strategy to target these customers.
+
+For example, we may find that customers who purchase office supplies in large quantities are the most profitable group. In this case, we may recommend launching targeted marketing campaigns for this group to increase their loyalty and purchase frequency.
+
+## Conclusion
+Customer segmentation is an important aspect of marketing strategy, and RFM analysis combined with K-means clustering is an effective way to segment customers based on their buying behavior. The Superstore dataset provides a rich source of transactional data that can be used to identify the most profitable customer groups and make data-driven marketing decisions.
 
 Dataset: https://www.kaggle.com/datasets/juhi1994/superstore
 
