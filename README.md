@@ -28,7 +28,7 @@ K-means clustering is used to group customers based on their RFM scores. The opt
 ## Conclusion
 This project provides a comprehensive report on sales and profit for Superstore, along with customer segmentation using RFM Analysis and K-means clustering. The visualizations in the report allow the user to easily identify trends and patterns in the data, while the customer segmentation allows Superstore to target specific customer groups with personalized marketing strategies.
 
-![PBI-1](https://github.com/tedhwang007/pbi/blob/main/report.png)
+![PBI-1](https://github.com/tedhwang007/pbi/blob/main/IMG/report.png)
 
 
 
